@@ -13,3 +13,9 @@ LOCATION="/home/jelle/testfile"
 
 #now=$(date)
 echo "Test @ $(date +'%Y-%m-%d %H:%M:%S')" >> $LOCATION
+
+
+0 * * * * /shared/create-backup.sh
+
+0,15,30,45 * * * * /shared/modify-permissions.sh
+
