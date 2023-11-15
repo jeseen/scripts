@@ -6,6 +6,8 @@ set pipefail -euxo
 ## sudo crontab -e
 ## # Add line to crontab:
 ## * * * * * /home/jelle/cronjob.sh
+## cronjob schedule tester: https://crontab.guru/#0_*_*_*_*
+
 
 LOCATION="/home/jelle/testfile"
 
